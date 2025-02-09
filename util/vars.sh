@@ -31,7 +31,7 @@ while [[ "$#" -gt 0 ]]; do
 done
 
 #REPO="${GITHUB_REPOSITORY:-btbn/ffmpeg-builds}"
-REPO="${GITHUB_REPOSITORY:-Soloturkh/FFmpeg09022025u}"
+REPO="${GITHUB_REPOSITORY:-Soloturkh/FFBuilds09022025}"
 REPO="${REPO,,}"
 REGISTRY="${REGISTRY_OVERRIDE:-ghcr.io}"
 BASE_IMAGE="${REGISTRY}/${REPO}/base:latest"
